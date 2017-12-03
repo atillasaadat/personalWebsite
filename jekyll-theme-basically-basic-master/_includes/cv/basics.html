@@ -1,0 +1,62 @@
+{% if cv.basics.summary %}
+  <div class="summary">
+    {{ cv.basics.summary | markdownify }}
+  </div>
+{% endif %}
+
+<div id="contact" class="entry">
+  <header class="entry-header">
+    <h3 class="entry-title">Contact</h3>
+  </header>
+
+  <div class="entry-content">
+    {% if cv.basics.email %}
+      <div class="email"><i class="fa fa-envelope"></i><strong> <a href="mailto:{{ cv.basics.email }}">Email</a></strong></div>
+    {% endif %}
+    {% if cv.basics.phone %}
+      <div class="phone"><strong>Phone</strong> {{ cv.basics.phone }}</div>
+    {% endif %}
+    {% if cv.basics.website %}
+      <div class="website"><i class="fa fa-globe"></i><strong> <a href="{{ cv.basics.website }}">Website</a></strong></div>
+    {% endif %}
+    {% if cv.basics.profiles %}
+      {% for p in cv.basics.profiles %}
+        <div class="item">
+          {% if p.network %}
+            {% if p.faicon %}
+              <i class="fa {{ p.faicon }}"></i>
+            {% endif %}
+            <a href="{{ p.url }}"><strong class="network">{{ p.network | append: ' ' }}</strong></a>
+          {% endif %}
+        </div>
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
+
+{% if cv.basics.locations %}
+  <div id="location" class="entry">
+    <header class="entry-header">
+      <h3 class="entry-title">Location</h3>
+    </header>
+
+    <div class="entry-content">
+      {% for location in cv.basics.locations %}
+        <address>
+          {% if location.type %}
+          <strong><span class="city">{{ location.type }}: </span></strong>
+          {% endif %}
+          {% if location.city %}
+            <span class="city">{{ location.city | append: ', ' }}</span>
+          {% endif %}
+          {% if location.region %}
+            <span class="region">{{ location.region | append: ', ' }}</span>
+          {% endif %}
+          {% if location.countryCode %}
+            <span class="countryCode">{{ location.countryCode }}</span>
+          {% endif %}
+        </address>
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}

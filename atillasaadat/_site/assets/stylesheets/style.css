@@ -1,0 +1,53 @@
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+/* ---- base ---- */
+
+
+
+canvas{
+  width: inherit;
+  display:block;
+  vertical-align:bottom;
+  z-index: 1;
+  position: unset;
+  height: -webkit-fill-available;
+}
+
+.mysss{
+  height: 100%;
+  width: inherit;
+  z-index: 999;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  pointer-events: none;
+  /*line-height: 1.5;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;*/
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  /*height: -webkit-fill-available;*/
+  position: relative;
+  width: inherit;
+  background-color: #060e28;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  user-select: none;
+}

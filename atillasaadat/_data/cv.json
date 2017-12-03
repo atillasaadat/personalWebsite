@@ -1,0 +1,333 @@
+{
+  "basics": {
+    "name": "Atilla Saadat",
+    "label": "Engineer Stu. - Programmer - Innovator",
+    "picture": "",
+    "email": "atillaabc@gmail.com",
+    "website": "https://atillasaadat.me",
+    "summary": "All-around Engineer with experience in Software, Hardware, Mechanical, Electrical, Aerospace, Nuclear, and much more!",
+    "locations": [
+      {
+        "type": "Current",
+        "city": "Sumida-ku",
+        "countryCode": "Japan",
+        "region": "Tokyo"
+      },
+      {
+        "type": "Home Base",
+        "city": "Windsor",
+        "countryCode": "Canada",
+        "region": "Ontario"
+      }
+    ],
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "faicon": "fa-linkedin-square",
+        "url": "https://linkedin.com/in/atillasaadat"
+      },
+      {
+        "network": "Github",
+        "faicon": "fa-github",
+        "url": "https://github.com/not-cosmo"
+      },
+      {
+        "network": "Twitter",
+        "faicon": "fa-twitter-square",
+        "url": "https://twitter.com/atillasaadat"
+      },
+      {
+        "network": "WinSAT",
+        "faicon": "fa-rocket",
+        "url": "https://winsat.ca"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Mujin Inc.",
+      "position": "Robotic Systems Engineer (Motor Control) - Intern",
+      "location": "Tokyo - Japan",
+      "website": "https://mujin.co.jp",
+      "startDate": "May 15th, 2017",
+      "endDate": "",
+      "summary": "Developed motor dynamics tests to determine an accurate motor torque model, complete with robot trajectory planning, data analytics, UX/UI data visualization features",
+      "highlights": [
+        "Estimate Motor Friction Coefficients (Viscous & Coulomb), Center of Mass, and Principal Moment of Intertia of all Motor links in any posture",
+        "Test fully developed in Python: Robot Trajectory Generation, Data Analysis/Fitting/Optimization , UX/UI Data Visualization"
+      ]
+    },
+    {
+      "company": "Canadensys Aerospace Corp.",
+      "position": "Robotic Systems Engineer (Space Exploration) - Intern",
+      "location": "Toronto - Canada",
+      "website": "http://canadensys.com",
+      "startDate": "May 1st, 2016",
+      "endDate": "September 1st, 2016",
+      "summary": "Designed, Built, and Developed a Lunar Rover Space Exploration Prototype",
+      "highlights": [
+        "Designed the overall strucuture of the lunar rover",
+        "Build the mechanical and electrical systems",
+        "Developed the Python command backend to control the TCP commands sent to the rover",
+        "Developed the UI which a rover commander can control the rover movement",
+        "Implemented various camera systems on the rover, including 360°, stereo, and 180° fisheye cameras, for use with OpenCV"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "UWindsor's Space & Aeronautics Team",
+      "position": "President / Founder / Lead Engineer",
+      "website": "https://winsat.ca",
+      "startDate": "2016-09",
+      "endDate": "",
+      "summary": "Design and Build a 3U Cube Satellite for Low Earth Orbit, part of the Canadian Satellite Design Challenge",
+      "highlights": [
+        "Lead a team of 25+ UWindsor Engineers & Scientists, from various education levels (Bachelors, Masters, Ph.D) ",
+        "Sponsored by UWindsor EpiCenter foe Satellite development - $5000 "
+      ]
+    },
+    {
+      "organization": "UWindsor's Rocketry Team",
+      "position": "Avionics Engineer",
+      "website": "https://winsat.ca",
+      "startDate": "2015",
+      "endDate": "",
+      "summary": "Built & Developed a Rapberry Pi data acquisition module to collect aerodynamic flight data for use of rocker design imporvements and guidance/navigation",
+      "highlights": [
+        "Rapberry Pi module aquired aerodynamic data (accelerometer, barometric pressure [altitude], gyroscope, magnetometer) during flight for later aerodynamic analysis regarding rocket design",
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Windsor",
+      "url": "http://www.uwindsor.ca/",
+      "area": "Mechanical Engineering with Aerospace Specialization - COOP",
+      "studyType": "Bachelor of Applied Science",
+      "startDate": "2015-09-01",
+      "endDate": "",
+      "distinction": "Dean's Honour Roll",
+      "courses": [
+        "03-62-126 - Linear Algebra",
+        "03-62-140 - Differential Calculus",
+        "06-85-111 - Engineering Mechanics I",
+        "06-85-118 - Engineering and the Profession",
+        "06-85-133 - Engineering and Design",
+        "03-59-110 - Topics in General Chemistry",
+        "03-62-141 - Integral Calculus",
+        "03-64-141 - Introductory Physics II",
+        "06-85-119 - Technical Communications",
+        "06-85-120 - Engineering Thermofluids",
+        "03-62-215 - Vector Calculus",
+        "06-85-232 - Engineering Software Fundamentals",
+        "06-85-234 - Electrical and Computing Fundamentals",
+        "06-85-250 - Engineering and the Environment",
+        "06-91-201 - Engineering Management and Globalization",
+        "06-92-210 - Dynamics",
+        "03-62-216 - Differential Equations",
+        "06-85-218 - Mechanics of Deformable Bodies",
+        "06-85-219 - Introduction to Engineering Materials",
+        "06-85-220 - Numerical Analysis for Engineering",
+        "06-85-222 - Treatment of Experimental Data",
+        "06-85-230 - Advanced Engineering and Design"       
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Student Grant - European Space Agency's North American Cryosat Science Conference",
+      "url" : "http://www.cryosat2017.org/",
+      "date": "2017-03",
+      "awarder": "<a style='text-decoration: none;' href='http://www.asc-csa.gc.ca/'>Canadian Space Agency</a>",
+      "summary": "Received Grant (max. $4000) from Canadian Space Agency to attend conference regarding ESA’s CryoSat2 Mission Results; exchanged findings with scientists/engineers from NOAA, NASA (Goddard, JPL, etc.), CSA, & ESA"
+    },
+    {
+      "title": "UWindsor Scholarships",
+      "date": "2015-present",
+      "awarder": "Various",
+      "awardsList": [
+		"<a style='text-decoration: none;' href='http://windsoressex.peo.on.ca/'>P.E.O. </a> Windsor-Essex Chapter Scholarship - $500",
+		"Faculty Retirees’ Scholarship - $1800",
+		"Ontario First Generation Bursary - $2000",
+		"Duronio FamilyScholarship - $1300",
+		"International COOP Bursary - $750",
+		"Frank Ewasyshyn Electrical Engineering Entrance Scholarship - $2000",
+		"University of Windsor Entrance Scholarship - $1000",
+      ],
+    },
+  ],
+  "skills": [
+    {
+      "name": "Advanced",
+      "keywords": [
+        "Python",
+        "Java",
+        "C++",
+        "Javascript (Native, Angular.js)",
+        "PHP",
+        "HTML(5)/CSS",
+        "Node.JS",
+        "MATLAB",
+        "MySQL / MongoDB / MariaDB",
+        "Catia V5",
+        "Nginx / Apache2",
+        "Git (Github, Gitlab)",
+        "Unix - Linux (Ubuntu, Debian, Kali) & OSX",
+        "Raspberry Pi / Arduinio / Beagle Bone",
+        "BASH",
+        "FlexiSign",
+        "Windows OS / Office (Word, Excel, etc.)",
+      ]
+    },
+    {
+      "name": "Intermediate",
+      "keywords": [
+      	"Simulink",
+        "Andriod Dev",
+        "Ruby"
+      ]
+    },
+    {
+      "name": "Basic",
+      "keywords": [
+        "iOS Dev (Swift)",
+        "Machine Learning (TensorFlow)",
+        "SolidWorks",
+        "QML",
+
+      ]
+    },
+    {
+      "name": "Libraries / Frameworks / APIs / Other",
+      "keywords": [
+        "Numpy / Scipy / Matplotlib",
+        "Python Flask & Django",
+        "AWS / DigitalOcean / Linode",
+        "Jekyll",
+        "Photoshop / GIMP",
+        "Twilio",
+        "AGI STK",
+        "Wit.ai",
+        "LaTeX",
+        "Wolfram Alpha",
+        "Various Google APIs (Maps, Translate, etc.)",
+        "Twitter API",
+        "Expedia API",
+        "Sublime Text / Eclipse / Visual Studio",
+        "OpenRAVE",
+        "Leap Motion",
+        "Myo Armband",
+        "Sony Vegas Pro"
+
+      ]
+    }
+  ],
+  "hackathons": [
+    {
+      "hackathon": "Facebook Global Hackathon Finals",
+      "projectUrl": "https://atillasaadat.me/watson",
+      "project": "Watson",
+      "projectDescription": "Instant SMS Internet Queries via Cloud Server API calls",
+      "locDate": "Facebook Headquarters, Menlo Park, CA - 2015",
+      "keypoints": [
+        "Twilio SMS handling w/ Parse Cloud Server",
+        "Wit.AI API Implementation for machine-learning linguistics analysis",
+        "Implemented APIs: Wolfram Alpha, Google Translate, Gmail",
+      ],
+    },
+    {
+      "hackathon": "SpartaHacks 2017",
+      "projectUrl": "https://devpost.com/software/lubdub",
+      "project": "Lubdub",
+      "projectDescription": "Record and Detect Heart defects",
+      "locDate": "Michigan State University",
+      "keypoints": [
+        "Built custom algorithm to detect heart defects with Waveform Nodal Analysis (DSP in native Javascript)",
+      ],
+      "awards":[
+        "SpartaHacks Overall 2nd Place Winner",
+        "Top Ten",
+        "ThoughtWorks Honourable Mention",
+      ]
+    },
+    {
+      "hackathon": "MHacks 6",
+      "projectUrl": "https://atillasaadat/gateway",
+      "project": "Gateway",
+      "projectDescription": "iOS Messaging App w/ API search query responses",
+      "locDate": "University of Michigan",
+      "keypoints": [
+        "JavaScript HttpRequest handling on Parse Cloud code",
+        "JavaScript keyword handling for user search queries",
+      ],
+      "awards":[
+        "Best iOS App",
+        "Best Use of Expedia API",
+        "Best Use of Parse API (Invited to Facebook Global Hackathon)",
+      ]
+    },
+    {
+      "hackathon": "Winter Hackathon",
+      "project": "Insurance Map",
+      "projectDescription": "Google Maps web app for insurance company",
+      "locDate": "University of Windsor",
+      "awards":[
+        "EpiCentre Startup Investment Fund - $6000",
+      ]
+    },
+    {
+      "hackathon": "Hacking Generation Y",
+      "projectUrl": "https://devpost.com/software/crophands",
+      "project": "Watson",
+      "projectDescription": "Instant SMS Internet Queries via Cloud Server API calls",
+      "locDate": "Stanford University, CA - 2014",
+      "keypoints": [
+        "Android Dev w/ Google glass & OpenCV",
+      ],
+    },
+    {
+      "hackathon": "and many more Hackathons listed in the PDF!"
+    }
+
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Conversational"
+    },
+    {
+      "language": "Azarbajani",
+      "fluency": "Conversational"
+    },
+    {
+      "language": "French",
+      "fluency": "Basic"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Basic"
+    },
+    {
+      "language": "German",
+      "fluency": "Basic"
+    },
+  ],
+  "interests": [
+    {
+      
+      "keywords": [
+      	"Astrophysics",
+        "Traveling",
+        "Soccer",
+        "Overwatch",
+        "<a href=https://atillasaadat.me/csgo>CSGO (autoexec.cfg)</a>"
+      ]
+    }
+  ],
+}
+

@@ -1,0 +1,9 @@
+<footer id="footer" class="site-footer">
+  <div class="copyright">
+    {% if site.copyright %}
+      {{ site.copyright | markdownify }}
+    {% else %}
+      <p><a style="color: inherit; text-decoration: none;"href={{ site.github_repo }}>&lt;/&gt; with &hearts; by {{ site.author.name }}. </a></p>
+    {% endif %}
+  </div>
+</footer>

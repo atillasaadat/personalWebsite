@@ -1,0 +1,55 @@
+{% if cv.hackathons %}
+  <div id="education" class="entry">
+    <header class="entry-header">
+      <h3 class="entry-title">Hackathons</h3>
+    </header>
+
+    <div class="entry-content">
+      {% for e in cv.hackathons %}
+        {% if e.hackathon %}
+          <h4 class="institution">
+            {% if e.url %}
+              <a style="text-decoration: none" href="{{ e.url }}">{{ e.hackathon }}</a>
+            {% else %}
+              {{ e.hackathon }}
+            {% endif %}
+          </h4>
+        {% endif %}
+        <div class="date">
+          {% if e.locDate %}
+            <span class="startDate">{{ e.locDate }}</span>
+          {% endif %}
+        </div>
+        {% if e.project %}
+          <div class="area"><strong>
+            {% if e.projectUrl %}
+              <a style="text-decoration: none" href="{{ e.projectUrl }}">{{ e.project }}</a>
+            {% else %}
+              {{ e.project }}
+            {% endif %}
+          </strong>
+          {% if e.projectDescription %}
+            - {{ e.projectDescription }}
+          {% endif %}
+        </div>
+        {% endif %}
+        {% if e.keypoints %}
+          <h5 class="courses-title">Key Points</h5>
+          <ul>
+            {% for keypoint in e.keypoints %}
+              <li>{{ keypoint }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+        {% if e.awards %}
+          <h5 class="courses-title">Awards</h5>
+          <ul>
+            {% for awards in e.awards %}
+              <li><strong><i>{{ awards }}</i></strong></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}

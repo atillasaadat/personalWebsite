@@ -1,0 +1,37 @@
+{% if cv.awards %}
+  <div id="awards" class="entry">
+    <header class="entry-header">
+      <h3 class="entry-title">Awards</h3>
+    </header>
+
+    <div class="entry-content">
+      {% for a in cv.awards %}
+        {% if a.title %}
+          <h4 class="title">
+            {% if a.url %}
+              <a style="text-decoration:none" href={{a.url}} > {{ a.title }} </a>
+            {% else %}
+              {{ a.title }}
+            {% endif %}
+          </h4>
+        {% endif %}
+        {% if a.date %}
+          <div class="date">{{ a.date }}</div>
+        {% endif %}
+        {% if a.awarder %}
+          <h5 class="awarder">Awarder: {{ a.awarder }}</h5>
+        {% endif %}
+        {% if a.summary %}
+          <div class="summary">{{ a.summary | markdownify }}</div>
+        {% endif %}
+        {% if a.awardsList %}
+          <ul >
+            {% for currentAward in a.awardsList %}
+              <li>{{ currentAward }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
