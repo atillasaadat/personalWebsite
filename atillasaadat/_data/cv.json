@@ -226,7 +226,6 @@
   "hackathons": [
     {
       "hackathon": "Facebook Global Hackathon Finals",
-      "projectUrl": "https://atillasaadat.me/watson",
       "project": "Watson",
       "projectDescription": "Instant SMS Internet Queries via Cloud Server API calls",
       "locDate": "Facebook Headquarters, Menlo Park, CA - 2015",
@@ -253,7 +252,7 @@
     },
     {
       "hackathon": "MHacks 6",
-      "projectUrl": "https://atillasaadat/gateway",
+      "projectUrl": "https://devpost.com/software/gateway",
       "project": "Gateway",
       "projectDescription": "iOS Messaging App w/ API search query responses",
       "locDate": "University of Michigan",
@@ -325,7 +324,7 @@
         "Traveling",
         "Soccer",
         "Overwatch",
-        "<a href=https://atillasaadat.me/csgo>CSGO (autoexec.cfg)</a>"
+        "CSGO (autoexec.cfg)"
       ]
     }
   ],
